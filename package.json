@@ -1,0 +1,16 @@
+{
+  "name": "cypress-api-tests",
+  "version": "1.0.0",
+  "description": "API testing using cypress framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "apitest:suite": "cypress run --browser chrome --spec cypress/integration/postcodeio/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.5.0"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://api.postcodes.io",
+  "screenshotOnRunFailure": false
+}
